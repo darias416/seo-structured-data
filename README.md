@@ -11,7 +11,7 @@ Import Note: All structured data in this repo is optimized for affiliate review 
 - [Product Reviews](https://github.com/darias416/seo-structured-data/edit/main/README.md#product-reviews)
 
 # Reviews
-Structured data that will produce rich results for product review articles.
+Structured data that will produce rich results for review articles.
 ## Product Reviews
 This code will produce a rich snippet containing a star rating and the name of the author that reviewed the product. 
 ```
