@@ -16,66 +16,32 @@ Structured data that will produce rich results for review articles.
 This code will produce a rich snippet containing a star rating and the name of the author that reviewed the product. 
 ```
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org/",
-  "@type": "Product",
-  "name": "",
-  "image": "",
-  "description": "",
-  "sku": "",
-  "mpn": "",
-  "brand": {
-    "@type": "Brand",
-    "name": ""
-  },
-  "review": {
-    "@type": "Review",
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": "",
-      "bestRating": ""
-    },
-"itemReviewed": {
-     "@type": "Product",
-     "image": "",
-     "name": "",
-"offers": {
-    "@type": "Offer",
-    "url": "",
-    "priceCurrency": "",
-    "price": "",
-    "priceValidUntil": "2100-01-01",
-    "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/OnlineOnly",
-    "seller": {
-      "@type": "Organization",
-      "name": ""
+    {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "ENTER PRODUCT NAME HERE",
+      "image": [
+        "ENTER URL TO PRODUCT IMAGE HERE"
+       ],
+      "description": "ENTER PRODUCT DESCRIPTION HERE",
+      "sku": "ENTER PRODUCT SKU HERE",
+      "mpn": "ENTER PRODUCT MPN HERE",
+      "brand": {
+        "@type": "Brand",
+        "name": "ENTER PRODUCT BRAND HERE"
+      },
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "ENTER RATING HERE",
+          "bestRating": "ENETER MAX POSSIBLE RATING HERE"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "ENTER REVIEWER NAME HERE"
+        }
+      }
     }
-  }
-    },
-    "reviewBody": "",
-    "author": {
-      "@type": "Person",
-      "name": ""
-    },
-    "publisher": {
-      "@type": "Person",
-      "name": ""
-     },
-  "offers": {
-    "@type": "Offer",
-    "url": "",
-    "priceCurrency": "",
-    "price": "",
-    "priceValidUntil": "2100-01-01",
-    "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/OnlineOnly"
-    },
-    "seller": {
-      "@type": "",
-      "name": ""
-    }
-  }
-}
-</script>
+    </script>
 ```
