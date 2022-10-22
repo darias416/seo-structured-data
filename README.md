@@ -13,7 +13,7 @@ Import Note: All structured data in this repo is optimized for affiliate review 
 # Reviews
 Structured data that will produce rich results for review articles.
 ## Product Reviews
-This code will produce a rich snippet containing a star rating and the name of the author that reviewed the product. 
+This code will produce a rich snippet containing a star rating and the name of the author that reviewed the product. As of October 22, 2022, this code meets all of Google's requirements for Rich Snippets/Results and will not produce any warnings via the Rich Results test tool.
 ```
 <script type="application/ld+json">
     {
